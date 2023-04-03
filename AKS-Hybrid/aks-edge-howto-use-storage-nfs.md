@@ -59,7 +59,7 @@ kubectl create -f .\rbac.yaml
 
 ## Step 4: Configure the NFS subdirectory external provisioner
 
-Next, edit the NFS provisioner's deployment file to add connection information for your NFS server. Edit **deploy/deployment.yaml** and replace the following values:
+Next, edit the NFS provisioner's deployment file to add connection information for your NFS server. Edit **deployment.yaml** and replace the following values:
 
 1. Replace the server hostname `VALUE` under `name: NFS_SERVER`.
 1. Replace the server hostname `server` under `volumes` -> `nfs`.
